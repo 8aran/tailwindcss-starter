@@ -1,12 +1,13 @@
 {
-  "name": "resistance-bands",
+  "name": "tailwindcss-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic TailwindCSS starter template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildcss": "npx tailwindcss build public/src/style/style.css -o public/build/style.css"
   },
-  "author": "",
+  "author": "banf",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.1.0",
