@@ -1,5 +1,5 @@
-# tailwindcss built css
-public/build
+# Ignore built tailwindcss
+public/build/style.css
 
 # Logs
 logs
